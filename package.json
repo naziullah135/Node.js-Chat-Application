@@ -1,0 +1,32 @@
+{
+  "name": "chat-application",
+  "version": "1.0.0",
+  "description": "Node.js Char Application",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_ENV=development nodemon app.js",
+    "production": "NODE_ENV=production node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naziullah135/Node.js-Chat-Application.git"
+  },
+  "author": "Naziullah Shawan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naziullah135/Node.js-Chat-Application/issues"
+  },
+  "homepage": "https://github.com/naziullah135/Node.js-Chat-Application#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "http-errors": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.6",
+    "multer": "^1.4.3"
+  }
+}
